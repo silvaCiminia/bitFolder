@@ -3,7 +3,8 @@
 A bitwise huffman tree-like compressor for large data globs
 
 ## Installation
-```git clone https://github.com/silvaCiminia/bitFolder && cd bitFolder
+```
+git clone https://github.com/silvaCiminia/bitFolder && cd bitFolder
 gforth --clear-history bitFolder.fs
 ```
 
