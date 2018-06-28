@@ -2,7 +2,12 @@
 ## Synopsis
 A bitwise huffman tree-like compressor for large data globs
 
-## Usage:
+## Installation
+```git clone https://github.com/silvaCiminia/bitFolder && cd bitFolder
+gforth --clear-history bitFolder.fs
+```
+
+## Usage
 
 * Compresses data at the bit level. The effectiveness of this method is highly dependent upon the type of data being compressed. Set SIZE to at least the size your input in bytes, and run COMPRESS in the following way:
 
