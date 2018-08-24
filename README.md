@@ -6,6 +6,7 @@ A bitwise huffman tree-like compressor for large data globs
 ```
 git clone https://github.com/silvaCiminia/bitFolder && cd bitFolder
 gforth --clear-history bitFolder.fs
+# Or similar command for your forth of choice
 ```
 
 ## Usage
