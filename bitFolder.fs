@@ -10,8 +10,7 @@
 Compressed text is returned in the CIPHERTEXT memory slot, and the size of the compressed string, which is needed to decompress, is returned on the parameter stack. DECOMP takes the length of the compressed string as an argument and looks for the compressed data in the CIPHERTEXT memory register.)
 
     
-: SIZE                                  ( -- )
-    10240
+10240 CONSTANT SIZE
     ;
 : GRANT                                 ( n -- )
   2 BASE !
